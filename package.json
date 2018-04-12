@@ -59,7 +59,7 @@
     "typescript": "~2.7.2"
   },
   "dependencies": {
-    "path-parser": "4.0.3",
-    "search-params": "2.1.2"
+    "path-parser": "https://github.com/nobabel/path-parser/releases/download/4.0.4-nobabel/path-parser-4.0.4-nobabel.tgz",
+    "search-params": "https://github.com/nobabel/search-params/releases/download/2.1.2-nobabel/search-params-2.1.2-nobabel.tgz"
   }
 }

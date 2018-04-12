@@ -7,7 +7,13 @@ export default ['umd', 'es', 'cjs'].map(format => ({
         nodeResolve({ module: true, jsnext: true }),
         typescript({
             useTsconfigDeclarationDir: true,
-            clean: true
+            clean: true,
+            tsconfigOverride: format === 'es' ? {
+                compilerOptions: {
+                    module: 'esnext',
+                    target: 'esnext',
+                },
+            } : undefined
         })
     ].filter(Boolean),
     external:

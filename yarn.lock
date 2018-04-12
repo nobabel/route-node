@@ -2259,11 +2259,11 @@ path-parse@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
 
-path-parser@4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/path-parser/-/path-parser-4.0.3.tgz#237ad649aad0d850ff58ac83335909b579035592"
+"path-parser@https://github.com/nobabel/path-parser/releases/download/4.0.4-nobabel/path-parser-4.0.4-nobabel.tgz":
+  version "4.0.4-nobabel"
+  resolved "https://github.com/nobabel/path-parser/releases/download/4.0.4-nobabel/path-parser-4.0.4-nobabel.tgz#de0af4dad5176e5fac80d3ed201605718f8cfebd"
   dependencies:
-    search-params "2.1.2"
+    search-params "https://github.com/nobabel/search-params/releases/download/2.1.2-nobabel/search-params-2.1.2-nobabel.tgz"
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -2623,9 +2623,9 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-search-params@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/search-params/-/search-params-2.1.2.tgz#e0107b7e6f2e973d7991b8fbffc8b6664bc96edd"
+"search-params@https://github.com/nobabel/search-params/releases/download/2.1.2-nobabel/search-params-2.1.2-nobabel.tgz":
+  version "2.1.2-nobabel"
+  resolved "https://github.com/nobabel/search-params/releases/download/2.1.2-nobabel/search-params-2.1.2-nobabel.tgz#911740ae775b8c8eb0e3af41bc59c9e85fbced54"
 
 "semver@2 || 3 || 4 || 5":
   version "5.3.0"
